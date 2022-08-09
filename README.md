@@ -3,7 +3,7 @@
 Link: https://www.coursera.org/specializations/cs-fundamentals
 
 Forked from official courses. 
-Commited codes about assignments/ projects/ modifications etc.
+Committed code about assignments/ projects/ modifications etc.
 
 
 
