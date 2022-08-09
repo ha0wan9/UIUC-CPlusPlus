@@ -1,8 +1,13 @@
-# Accelerated Computer Science Fundamentals Example Code
+# UIUC Accelerated Computer Science Fundamentals Specialization Code
 
-This example code is meant to accompany the following online course sequence:
+Link: https://www.coursera.org/specializations/cs-fundamentals
 
-https://www.coursera.org/specializations/cs-fundamentals
+Forked from official courses. 
+Commited codes about assignments/ projects/ modifications etc.
 
-Additional examples (or any bits we may have missed) may still be added. Feel free to raise an issue if you feel something in particular is missing.
+
+
+
+
+
 
