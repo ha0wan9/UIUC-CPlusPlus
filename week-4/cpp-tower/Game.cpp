@@ -18,9 +18,23 @@ using std::endl;
 // (Feel free to call "helper functions" to help you solve the puzzle.)
 void Game::solve() {
   // Prints out the state of the game:
-  cout << *this << endl;
-
+  cout << *this << endl
   // @TODO -- Finish solving the game!
+  int height = stacks_[0].size();
+  while (stacks_[2].size() < height){
+    for (int i = 1; i < 3; i++){
+      if ((stacks_[i].size() == 0 && stacks_[i-1].size() != 0)||
+        (stacks_[i].peekTop() > stacks_[i-1].peekTop())) {
+        stacks_[i].push_back(stacks_[i-1].peekTop()); 
+        stacks_[i-1].removeTop();
+      } else if ((stacks_[i].size() != 0 && stacks_[i-1].size() == 0) || 
+                (stacks_[i].peekTop() < stacks_[i-1].peekTop())) {
+        stacks_[i-1].push_back(stacks_[i].peekTop()); 
+        stacks_[i].removeTop();
+      }
+    }
+  }
+}
 }
 
 // Default constructor to create the initial state:
